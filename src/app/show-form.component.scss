@@ -1,0 +1,13 @@
+.close {
+	text-align: right;
+	color: red;
+}
+
+.overlay-container{
+	z-index: 9999;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #000000bd;
+    text-align: center;
+}

@@ -1,9 +1,88 @@
+<!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+          <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Institute Of Medical Sciences And Health</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#services">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#notice">Notice</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#portfolio">Gallary</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#about">About IMSH</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#team">Faculty</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+                <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+              Downloads
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" target="_blank" href="./assets/docs/admissionForm.pdf"><button id="noborder">Admission Form</button></a>
+              <a class="dropdown-item"><button id="noborder" (click)="openDialog()">Authorization Letter</button></a>
+              <!-- <a class="dropdown-item" target="_blank" href="./assets/docs/SIF Page 1-8.pdf">SIF Page 1-8</a> -->
+              <!-- <a class="dropdown-item" target="_blank" href="./assets/docs/Page 1-22.pdf">SIF Page 1-22</a>
+              <a class="dropdown-item" target="_blank" href="./assets/docs/Exam Conducting.jpg">Exam Conducting</a>
+              <a class="dropdown-item" target="_blank" href="./assets/docs/Reciving Letter.jpg">Receiving Letter</a> -->
+            </div>
+          </div>
+                <!-- <li class="nav-item" >
+                  <ul>
+                    <li>
+                        <a class="nav-link js-scroll-trigger" target="_blank" href="./assets/docs/SIF Page 1-8.pdf">Download</a>
+                    </li>
+                    <li>
+                        <a class="nav-link js-scroll-trigger" target="_blank" href="./assets/docs/SIF Page 1-8.pdf">Download</a>
+                    </li>
+                  </ul>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>    
+
+
+<!-- 
+  <div class=“psu-video-overlay” >
+       <div class=“close-video” >X</div>
+       <div class=“psu-video”> -->
+         <!-- <video width=“700" height=“500” controls=“true”>
+           <source src=“https://www.youtube.com/watch?v=iaIiTtOd9M4” >
+         </video>-->
+         
+         <!-- <iframe type=“text/html”
+             width=“1000”
+             height=“500"
+             src=“./assets/img/show.pd”
+             frameborder=“0" allowfullscreen>
+         </iframe> -->
+<!--        </div>
+   </div> -->
+
+
+
+
+
+
     <!-- Header -->
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">The beautiful thing about learning is that no one can take it away from you..<span id="author">"B.B.King"</span></div>
-          <div class="intro-heading text-uppercase">Institute Of Medical Sciences and Health, managed by MTDM Educational Trust, a proposed pharmacy college, situated in capital of Jharkhand Ranchi</div>
+          <div class="intro-heading text-uppercase">Institute Of Medical Sciences and Health, managed by MTDM Educational Trust, a pharmacy college, situated in capital of Jharkhand Ranchi</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
         </div>
       </div>
@@ -25,7 +104,7 @@
               <i class="fa fa-notes-medical fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Diploma in Pharmacy</h4>
-            <p class="text-muted">Diploma in Pharmacy is a 2-year full-time Diploma course divided into 4 semesters. D.Pharmacy has been designed to prepare candidates to work under the supervision of a licensed pharmacist in hospitals, community pharmacies, and other related pharmaceutical fields.</p>
+            <p class="text-muted">Diploma in Pharmacy is a 2-year full-time Diploma course. D.Pharmacy has been designed to prepare candidates to work under the supervision of a licensed pharmacist in hospitals, community pharmacies, and other related pharmaceutical fields.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -47,6 +126,42 @@
       </div>
     </section>
 
+    <!-- Notice -->
+    <section id="notice">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Courses</h2>
+            <h3 class="section-subheading text-muted">We offer different verities of courses in Pharmacy</h3>
+          </div>
+        </div>
+        <div class="row text-center">
+         <!--Carousel Wrapper-->
+          <mdb-carousel [isControls]="true" [animation]="'slide'">
+              <!--First slide-->
+              <mdb-carousel-item>
+                <textarea class="d-block w-100" name="">hello team</textarea>
+                  <!-- <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="First slide"> -->
+              </mdb-carousel-item>
+              <!--/First slide-->
+              <!--Second slide-->
+              <mdb-carousel-item>
+                <textarea class="d-block w-100" name="">hello team</textarea>
+                  <!-- <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg" alt="Second slide"> -->
+              </mdb-carousel-item>
+              <!--/Second slide-->
+              <!--Third slide-->
+              <mdb-carousel-item>
+                <textarea class="d-block w-100" name="">hello team</textarea>
+                  <!-- <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide"> -->
+              </mdb-carousel-item>
+              <!--/Third slide-->
+          </mdb-carousel>
+          <!--/.Carousel Wrapper-->
+        </div>
+      </div>
+    </section>
+
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -58,7 +173,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal"> <!-- href="#portfolioModal1" -->
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"> <!-- href="#portfolioModal1" -->
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -72,7 +187,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" >
+            <a class="portfolio-link" data-toggle="modal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -87,6 +202,20 @@
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" >
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Labs</h4>
+              <p class="text-muted">TBD</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -127,20 +256,6 @@
               <p class="text-muted"></p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/img/portfolio/download.jpeg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>TBD</h4>
-              <p class="text-muted"></p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -151,7 +266,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Institute Of Medical Sciences and Health, an premimum institute, run under MTDM Education Trust, for benifit of society. IMSH is a proposed pharmacy college situated in heart of Jharkhand, Ranchi</h3>
+            <h3 class="section-subheading text-muted">Institute Of Medical Sciences and Health, an premimum institute, run under MTDM Education Trust, for benifit of society. IMSH is a pharmacy college situated in heart of Jharkhand, Ranchi</h3>
           </div>
         </div>
         <div class="row">
@@ -351,8 +466,8 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Institute Of Medical Sciences and Health, Gutwa Toli, Hurhuri, Ratu, Ranchi, Jharkhand</h3>
-            <h6 style="color:white">Phone:- +91-9798080946/9576692191/8540960640/9534031758 email:- imshrnc.rediffmail.com</h6>
+            <h3 class="section-subheading" style="color:white">Institute Of Medical Sciences and Health, Gutwa Toli, Hurhuri, Ratu, Ranchi, Jharkhand</h3>
+            <h6 style="color:white">Phone:- +91-9798080946/9576692191, 8540960640/9534031758 <br> email:- help@imsh.co.in/</h6>
           </div>
         </div>
         <div class="row">
@@ -449,7 +564,30 @@
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Project Name</h2>
                   <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="">
+                  <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt=""> -->
+
+                  <!--Carousel Wrapper-->
+                  <mdb-carousel [isControls]="true" [animation]="'slide'">
+                      <!--First slide-->
+                      <mdb-carousel-item>
+                          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="First slide">
+                      </mdb-carousel-item>
+                      <!--/First slide-->
+                      <!--Second slide-->
+                      <mdb-carousel-item>
+                          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg" alt="Second slide">
+                      </mdb-carousel-item>
+                      <!--/Second slide-->
+                      <!--Third slide-->
+                      <mdb-carousel-item>
+                          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide">
+                      </mdb-carousel-item>
+                      <!--/Third slide-->
+                  </mdb-carousel>
+                  <!--/.Carousel Wrapper-->
+
+
+
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>

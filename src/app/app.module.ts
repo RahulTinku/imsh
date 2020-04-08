@@ -1,17 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
-import { AppComponent } from './app.component';
+import { AppComponent, ShowForm } from './app.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShowForm
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatDialogModule,
+    BrowserAnimationsModule,
+    MDBBootstrapModule.forRoot()
   ],
+  entryComponents: [ShowForm],
   providers: [],
   bootstrap: [AppComponent]
 })
